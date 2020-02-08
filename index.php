@@ -1,8 +1,9 @@
 <html>
  <head>
-  <title> PHP</title>
+  <title>Dojo Heroku</title>
  </head>
  <body>
- <?php echo '<p>Hola Yoana</p>'; ?>
+ <?php echo '¡Hello ' . htmlspecialchars($_GET["name"]) . '!';
+ ?>
  </body>
 </html>
